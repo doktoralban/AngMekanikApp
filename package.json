@@ -10,7 +10,6 @@
     "cmp": "ng generate component ",
     "iface": "ng generate interface ",
     "srvc": "ng generate service "
-    
   },
   "private": true,
   "dependencies": {
@@ -28,6 +27,8 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "bootstrap": "^5.0.1",
+    "chart.js": "^3.3.2",
+    "ng2-charts": "^2.4.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
@@ -44,6 +45,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
-    "typescript": "~4.2.3"
+    "typescript": "~4.2.3",
+    "@types/chart.js": "^3.3.2"
   }
 }

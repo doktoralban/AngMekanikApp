@@ -9,11 +9,15 @@ import { HomeComponent } from "./home/home.component";
 import { FooterComponent } from "./footer/footer.component";
 import { LoginService } from "./services/login.service";
 import { ReactiveFormsModule } from "@angular/forms";
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { Test01Component } from './test01/test01.component';
-import { CarouselComponent } from './carousel/carousel.component';
-import { HotelinfocardsComponent } from './hotelinfocards/hotelinfocards.component';
-import { OurteamComponent } from './ourteam/ourteam.component';
+import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
+import { Test01Component } from "./test01/test01.component";
+import { CarouselComponent } from "./carousel/carousel.component";
+import { HotelinfocardsComponent } from "./hotelinfocards/hotelinfocards.component";
+import { OurteamComponent } from "./ourteam/ourteam.component";
+
+//  import { ChartsModule } from "ng2-charts";
+
+import { BarChartComponent } from "./bar-chart/bar-chart.component";
 
 @NgModule({
   declarations: [
@@ -26,12 +30,15 @@ import { OurteamComponent } from './ourteam/ourteam.component';
     Test01Component,
     CarouselComponent,
     HotelinfocardsComponent,
-    OurteamComponent
+    OurteamComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule
+    /* ,
+    ChartsModule */
   ],
   providers: [LoginService],
   bootstrap: [AppComponent]

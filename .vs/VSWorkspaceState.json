@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\models",
     "\\src\\app\\navbar"
   ],
-  "SelectedNode": "\\src\\app\\navbar\\navbar.component.ts",
+  "SelectedNode": "\\src\\app\\models\\User.ts",
   "PreviewInSolutionExplorer": false
 }
